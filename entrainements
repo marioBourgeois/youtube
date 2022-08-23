@@ -1,0 +1,26 @@
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+
+const Rouge = () => {
+  return (
+    <View style= {styles.content}>
+      <Text style = {styles.titre}>Rouge</Text>
+    </View>
+  )
+}
+
+export default Rouge
+
+const styles = StyleSheet.create({
+  content: {
+    backgroundColor: 'red',
+    height: 200,
+    width: 200,
+    },
+
+  titre : {
+    color: 'white',
+    fontSize: 20,
+    textAlign: 'center',
+  }
+})
